@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    .scrollbar::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+      }
+    
+    .scrollbar::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background: #3a3731;
+    }
+    
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: #eee;
+        border-radius:5px;
+    }
+    
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        border:1px solid black;
+    }
+
+    .gameTitle{
+        font-size: 2rem;
+        margin: 2vh 0;
+    }
+
+    .gameDes{
+        color:#eee;
+    }
+
+    .gameCard img{
+        width:100%;
+        margin-top: 5vh;
+    }
